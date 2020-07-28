@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>Page Title</title>
+</head>
+<body>
+   
+    <div id = "heading">
+        <h1>A day in the life of Mutsi Lulu Pearl</h1>
+        <h3>She's a happy pup with lots to do.</h3>
+    </div>
+    <div id="intro" class="grid">
+        <p class = "item2">This is my dog Mutsi. Over the past few months, I've been home more, and I've gotten to know her schedule. She lives quite a life; I'm often out of breath trying to keep up with her. <br>Why don't you learn a bit about my dog? </p>
+        <img id="mutsi" src="./camera.jpeg" height="200px"/>
+        <caption style="text-align: center; "></caption>  
+    </div>
+    <br>
+    <h2 class = "special center">She's a dog on a mission. Let's see what she's up to:<br><br>
+    What time is it?</h2>
+    <div id="time-grid">
+        <img src="./8am.png"  class="im-grid" id="img1"></button>
+        <img src="./2pm.png" class="im-grid center" id="img2">
+        <img src="./7pm.png" class="im-grid" id="img3">
+
+    </div>
+    <div id="goodMorning" class="center">
+        <h2 class="center" id="morning">Rise and Shine! Mutsi would love some breakfast</h2>
+        <h4 class="center" id="morning">Why don't you guess her favorite food?</h4>
+        <label class="center activities1"  for="activities">A small dog with a limited pallette...</label>
+        <select class="center" name="activities" id="activities">
+            <option value="-1" selected>Select Option</option>
+            <option value="dog food">Dog food</option>
+            <option value="chicken">Chicken</option>
+            <option value="cat food">Cat food</option>
+
+        </select>
+        <button class="center" id="breakfast">Take a guess!</button>
+        <h2 class="center" id="secretMessage"></h2>
+        <br>
+    </div>
+    <div id="afternoon">
+        <h2 class="center">It's time for a trip to the dog park!<br>
+            Mutsi is a super social dog. Today, she is going to the park and making a new friend:</h2>
+        <div id="friend-grid">
+            <button id="newFriend" class="center">Let's see who she's met today:</button><br><br>
+            <img class="center" id="friend" height="200px"/>
+        </div>
+    </div>
+    <div id="bedtime" >
+        <h2 class="center h2" id="morning">Would you look at the time...
+                                        I think it's time for bed.</h2>
+        <h2 class="center" ></h2>
+
+        <p class="center h2">She's confounded by her age. Before she falls asleep, she uses her special dog calculator to count  her age in human years. </p>
+        <div class="grid-container center">
+            <button id="res" class="grid-item it1 text-left"></button>
+            <button class="grid-item it2 bt" id="btn00">0</button>
+            <button class="grid-item it3 bt" id="btn01">1</button>
+            <button class="grid-item it4 bt" id="btn02">2</button>
+            <button class="grid-item it5 bt" id="btn03">3</button>
+            <button class="grid-item it6 bt" id="btn04">4</button>
+            <button class="grid-item it7 bt" id="btn05">5</button>
+            <button class="grid-item it8 bt" id="btn06">6</button>
+            <button class="grid-item it9 bt" id="btn07">7</button>
+            <button class="grid-item it10 bt" id="btn08">8</button>
+            <button class="grid-item it11 bt" id="btn09">9</button>
+            <button class="grid-item it12 bt" id="btnClr">C</button>
+            <button class="grid-item it13 bt" id="btnEql">=</button>
+            <button class="grid-item it16 bt" id="btnMul">* 7</button>
+            <button class="grid-item it17 bt" id="btnDiv">/ 7</button>
+            </div>
+        </div> 
+        
+        <br>
+    </div>
+     <script src="js/example.js" type="text/javascript"></script>    
+     <script src="js/dogparks.js" type="text/javascript"></script>    
+</body>
+</html>
