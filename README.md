@@ -10,3 +10,4 @@ There is a small blurb about my dog as well as 3 displaying divs that show her r
 4. The evening div displays a dog-calculator, which was the only element created prior to this morning. I coded a binary calculator earlier this week, and I transformed the binary calculator into a special dog calculator for this page.
 
 
+![ScreenShot](https://raw.github.com/jpearl8/Mutsi_front_end/master/assets/camera)
